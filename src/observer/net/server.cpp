@@ -86,7 +86,7 @@ void Server::close_connection(Communicator *communicator)
   event_del(&communicator->read_event());
   delete communicator;
 }
-
+// 1111111111111111111111111
 void Server::recv(int fd, short ev, void *arg)
 {
   Communicator *comm = (Communicator *)arg;
