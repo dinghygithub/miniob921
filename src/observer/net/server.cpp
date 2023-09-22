@@ -87,6 +87,8 @@ void Server::close_connection(Communicator *communicator)
   delete communicator;
 }
 // 1111111111111111111111111
+// 321321321321
+// dsfasd
 void Server::recv(int fd, short ev, void *arg)
 {
   Communicator *comm = (Communicator *)arg;
